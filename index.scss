@@ -34,6 +34,7 @@ body {
             }
 
             .invoice {
+                font-size: 1.8rem;
                 font-weight: 400;
             }
         }
@@ -41,19 +42,27 @@ body {
         section {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 2rem;
-            font-size: 1.4;
+            margin-bottom: 2rem;           
             line-height: 2rem;
             width: 90%;
             margin-left: 4rem;
 
             .right {
                 text-align: end;
+                font-size: 1.5rem;
 
                 .balDue {
                     box-sizing: border-box;
                     background-color: azure;
+
+                    span {
+                        margin-left: 5rem;
+                    }
                 }
+            }
+
+            .left {
+                font-size: 1.5rem;
             }
 
         }

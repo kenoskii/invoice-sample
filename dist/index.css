@@ -34,23 +34,30 @@ body .container header .img {
   border-radius: 1rem;
 }
 body .container header .invoice {
+  font-size: 1.8rem;
   font-weight: 400;
 }
 body .container section {
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
-  font-size: 1.4;
   line-height: 2rem;
   width: 90%;
   margin-left: 4rem;
 }
 body .container section .right {
   text-align: end;
+  font-size: 1.5rem;
 }
 body .container section .right .balDue {
   box-sizing: border-box;
   background-color: azure;
+}
+body .container section .right .balDue span {
+  margin-left: 5rem;
+}
+body .container section .left {
+  font-size: 1.5rem;
 }
 body .container table {
   width: 90%;
